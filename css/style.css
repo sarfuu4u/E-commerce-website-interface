@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu:wght@300&display=swap');
+body{
+    background-color: var(--main-body-color);
+}
+.container{
+    min-height: calc(100vh - 10vh - 56px);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 80vw;
+}
+.card{
+    max-width: 90vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom:10px ;
+}
+.card-items{
+    margin: 0 15px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}

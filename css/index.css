@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu:wght@300&display=swap');
+:root{
+    --main-bg-color: #157462;
+    --main-hover-color: #018130;
+    --main-border-color: #577e01;
+    --main-body-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 90px;
+    padding: 0 23px;
+}
+nav ul{
+    height: 56px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: var(--main-hover-color);
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0 23px;
+}
+.search input{
+    width: 20vw;
+    height: 26px;
+    border: 2px solid var(--main-border-color);
+    border-radius: 4px;
+    padding: 0 20px;
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+    color: white;
+    height: 27px;
+    width: 80px;
+    margin: 0 16px;
+    padding: 2px 8px;
+    border: 2px solid var(--main-border-color);
+    border-radius: 4px;
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+.btn:hover{
+    color: var(--main-hover-color);
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 10vh; 
+    font-family: 'Lato', sans-serif;
+}
