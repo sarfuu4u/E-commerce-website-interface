@@ -1,3 +1,3 @@
-# EcoMart - An E-commerce website
+# EcoMart - An E-Commerce website
 <br>
-https://sarfuu4u.github.io/E-commerce-website-interface/
+https://sarfuu4u.github.io/EcoMart---An-E-Commerce-website/
